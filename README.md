@@ -1,20 +1,20 @@
-# SWCamper API
+# 🏕️ SWCamper API
 
-> Backend API for SWCamper application, which is a bootcamp directory website
+> Backend API for SWCamper application, which is a bootcamp directory website.
 
-## Usage
+## ⚙️ Usage
 
-Add ".env" to project directory and update the values/settings to your own
+Add a `.env` file to the project directory and update the values/settings to your own.
 
-## Install Dependencies
+## 📦 Install Dependencies
 
-```
+```bash
 npm install
 ```
 
-## Run App
+## 🚀 Run App
 
-```
+```bash
 # Run in dev mode
 npm run dev
 
@@ -22,11 +22,11 @@ npm run dev
 npm start
 ```
 
-## Database Seeder
+## 🌱 Database Seeder
 
-To seed the database with users, bootcamps, courses and reviews with data from the "\_data" folder, run
+To seed the database with users, bootcamps, courses, and reviews using data from the `_data` folder, run:
 
-```
+```bash
 # Destroy all data
 node seeder -d
 
@@ -34,7 +34,6 @@ node seeder -d
 node seeder -i
 ```
 
-## Demo
+## 🎥 Demo
 
-
-Extensive documentation with examples [here](https://documenter.getpostman.com/view/24948177/2s9YkuYJ5p#1091f384-5578-49ff-83b8-60cdbb847958)
+Extensive documentation with examples available [here](https://documenter.getpostman.com/view/24948177/2s9YkuYJ5p#1091f384-5578-49ff-83b8-60cdbb847958).
